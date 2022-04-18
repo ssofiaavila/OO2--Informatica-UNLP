@@ -10,7 +10,7 @@ public class TestDispositivo {
 	
 	@BeforeEach
 	void setUp() {
-		disp= new Dispositivo();
+		disp= new Dispositivo(new CRC32_Calculator(), new Adapter4GConnection());
 	}
 	
 	@Test
@@ -20,5 +20,12 @@ public class TestDispositivo {
 		String enviado= disp.send("Hola");
 		assertEquals("Hola", enviado);
 	}
-	
+	@Test
+	public void connectTest() {
+		assertEquals(disp.changeConnection(new WifiConn()),"Metodo de conexion cambiado");
+	}
+	@Test
+	public void setCRCTest() {
+		assertEquals(disp.setCRC(new CRC16_Calculator()),"Configuracion CRC cambiada");
+	}
 }
