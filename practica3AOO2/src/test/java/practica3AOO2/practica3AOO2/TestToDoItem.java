@@ -41,13 +41,13 @@ public class TestToDoItem {
 	@Test 
 	void testAddComment(){
 		toDo1.addComment("Hola");
-		String[] comments= toDo1.getComments();
-		assertTrue(comments[0].equals("Hola"));
+		List<String> comments= toDo1.getComments();
+		assertTrue(comments.get(0).equals("Hola"));
 		
 		toDo1.finish();
 		toDo1.addComment("Chau");
 		comments= toDo1.getComments();
-		assertFalse(comments[1].equals("Chau"));
+		assertFalse(comments.get(0).equals("Chau"));
 	}
 	
 	
