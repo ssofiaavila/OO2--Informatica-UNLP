@@ -4,10 +4,11 @@ public class Connection4G {
 	private String symb;
 	
 	public Connection4G() {
+		this.symb="4G symb";
 		
 	}
 	public String transmit(String dta, int crc) {
-		return dta;
+		return "Transmitiendo data";
 	}
 	public String symb() {
 		return symb;
