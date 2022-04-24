@@ -8,11 +8,11 @@ public class AlbumMethod implements SearchMethod{
 	@Override
 	public List<Song> search(String name, List<Author> artists) {
 		String searched= name.toUpperCase();
-		List<Song> collection= new ArrayList();
-		List<Album> sameAlbumName= new ArrayList<Album>();
-		artists.stream().forEach(i -> sameAlbumName.addAll(i.getAlbums())); //obtengo todos los albumes
-		sameAlbumName.stream().filter(i -> i.getName().contains(searched)).forEach(i -> collection.addAll(i.getSongs())); 
-		return collection;
+		List <Song> songs= new ArrayList<Song>();
+		List<Album> albums = new ArrayList<Album>();
+		artists.stream().forEach(a -> albums.addAll(a.getAlbums()));
+		albums.stream().filter(a -> a.getName().contains(name)).forEach(a -> songs.addAll(a.getSongs()));
+		return songs;
 	}
 	
 }
