@@ -53,12 +53,12 @@ public class SpOOtifyTest {
 	@Test
 	public void authorSearchMethodTest() {
 		this.platform.setSeachMethod(new authorMethod());
-		assertEquals(3,this.platform.search("YSY").size());
+		assertEquals(3,this.platform.search("Ysy").size());
 	}
 	@Test
 	public void albumSearchMetodTest() {
 		this.platform.setSeachMethod(new AlbumMethod());
-		assertEquals(3,this.platform.search("antazena").size());
+		assertEquals(3,this.platform.search("Antazena").size());
 	}
 	
 }
