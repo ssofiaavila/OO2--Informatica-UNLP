@@ -8,10 +8,8 @@ public class authorMethod implements SearchMethod{
 
 	public List<Song> search(String name, List<Author> artists) {
 		String searched= name.toUpperCase();
-		List<Song> songs= new ArrayList<Song>();
-		List <Author> authors= new ArrayList<Author>();
-		authors= artists.stream().filter(i -> i.getName().contains(searched)).collect(Collectors.toList());
-		authors.stream().forEach(i-> songs.addAll(i.getSongs()));
+		List <Song> songs= new ArrayList<Song>();
+		artists.stream().filter(a -> a.getName().contains(name)).forEach(a -> songs.addAll(a.getSongs()));
 		return songs;
 	}
 
