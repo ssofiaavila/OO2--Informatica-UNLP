@@ -17,8 +17,6 @@ public class Persoonal {
 	List<Persoona> usuarios = new ArrayList<Persoona>();
 	List<Llamada> llamadas = new ArrayList<Llamada>();
 	private GuiaTelefonica guiaTelefonica = new GuiaTelefonica();
-	static double descuentoJur = 0.15;
-	static double descuentoFis = 0;
 	
 	
 	// data class
@@ -80,37 +78,10 @@ public class Persoonal {
 	//feature envy --> move method
 	//sentencias switch --> replace confitional with polymorphism
 	public double calcularMontoTotalLlamadas(Persoona usuario) {
-		double total=0;
-		
 		if (this.existeUsuario(usuario)) {
-			total=usuario.generarCobro();
-		}
-		
-		Persoona aux = null;
-		for (Persoona pp : lista1) {
-			if (pp.tel == p.getTel()) {
-				aux = pp;
-				break;
-			}
-		} if (aux == null) return c;
-		if (aux != null) {
-			for (Llamada l : aux.lista1) {
-				double auxc = 0;
-				if (l.tipoDeLlamada == "nacional") {
-					auxc += l.dur *3 + (l.dur*3*0.21);
-				} else if (l.tipoDeLlamada == "internacional") {
-					auxc += l.dur *200 + (l.dur*200*0.21);
-				}
-				
-				if (aux.t == "fisica") {
-					auxc -= auxc*descuentoFis;
-				} else if(aux.t == "juridica") {
-					auxc -= auxc*descuentoJur;
-				}
-				c += auxc;
-			}
-		}
-		return c;
+			return usuario.generarCobro();
+		}		
+		return 0;
 	}
 
 	public int cantidadDeUsuarios() {

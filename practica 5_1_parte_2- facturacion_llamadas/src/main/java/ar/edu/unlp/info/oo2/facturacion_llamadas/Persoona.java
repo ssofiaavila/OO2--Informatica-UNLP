@@ -26,7 +26,7 @@ public abstract class Persoona {
 	public List<Llamada> getLlamadas() {
 		return llamadas;
 	}
-	public void setLista1(List<Llamada> lista1) {
+	public void setLlamadas(List<Llamada> lista1) {
 		this.llamadas = lista1;
 	}
 	public String getNombreYApellido() {
@@ -45,8 +45,13 @@ public abstract class Persoona {
 		this.llamadas.add(call);
 	}
 	
-	public abstract double generarCobro();
+	public double generarCobro() {
+		List<Llamada> calls= this.getLlamadas();
+		double total= calls.stream().mapToDouble(l -> l.getValor()).sum();
+		total -= total*getDescuento();
+		return total;
+	}
+	public abstract double getDescuento();
 	
-
 	
 }

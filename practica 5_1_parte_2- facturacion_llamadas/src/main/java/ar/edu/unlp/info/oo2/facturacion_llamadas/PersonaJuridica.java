@@ -7,6 +7,10 @@ public class PersonaJuridica extends Persoona{
 		super(nombreYApellido, telefono, tipo, sistema);
 		this.cuit=cuit;
 	}
+	@Override
+	public double getDescuento() {
+		return 0.15;
+	}
 
 	
 	
