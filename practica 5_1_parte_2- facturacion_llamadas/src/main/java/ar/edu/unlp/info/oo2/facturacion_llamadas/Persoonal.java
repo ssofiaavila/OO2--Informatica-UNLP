@@ -35,7 +35,7 @@ public class Persoonal {
 			return new PersonaJuridica(nombre,telefono,data,tipo,sistema);
 	}
 	
-	public String getNuevoNumero() {
+	private String getNuevoNumero() {
 		return this.guiaTelefonica.obtenerNumero();		
 	}
 	

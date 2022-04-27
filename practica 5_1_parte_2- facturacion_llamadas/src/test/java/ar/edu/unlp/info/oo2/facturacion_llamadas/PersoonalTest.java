@@ -36,8 +36,8 @@ class PersoonalTest {
 
 	@Test
 	void testcalcularMontoTotalLlamadas() {
-		assertEquals(this.sistema.calcularMontoTotalLlamadas(emisorPersonaFisca), 15105.640000000001);
-		assertEquals(this.sistema.calcularMontoTotalLlamadas(emisorPersonaJuridica), 3131.7825000000003);
+		assertEquals(this.sistema.calcularMontoTotalLlamadas(emisorPersonaFisca), 15105.64);
+		assertEquals(this.sistema.calcularMontoTotalLlamadas(emisorPersonaJuridica), 3131.7825);
 		assertEquals(this.sistema.calcularMontoTotalLlamadas(remitentePersonaFisica), 0);
 		assertEquals(this.sistema.calcularMontoTotalLlamadas(remitentePersonaJuridica), 0);
 	}
