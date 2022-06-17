@@ -1,0 +1,24 @@
+temas
+patrones
+	adapter
+	template method
+	composite
+	strategy
+	state
+	wrappers/ decorator
+	proxy
+	
+refactoring
+	TDD
+	métodos ágiles
+	refactoring y catálogo
+	bad smells
+	
+framework
+	intro
+	hot y frozen spots
+	inversión de control
+	loggin
+	inversión de dependencias
+	patrones arquitecturales- blockchain
+	integración testing + patrones + refactoring + framework
