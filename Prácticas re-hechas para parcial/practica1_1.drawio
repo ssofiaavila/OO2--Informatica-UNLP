@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T02:08:26.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="YlhbzOth1AQTVrUSK18o" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T02:21:37.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="2yRx63I-TbvO8hFLmfJL" version="20.0.1" type="github">
   <diagram id="I5vzNxdLaVSzaIgCpo3I" name="Page-1">
     <mxGraphModel dx="702" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="M3S95Sz8UXM2FycRjZMM-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="M3S95Sz8UXM2FycRjZMM-5">
           <mxGeometry y="100" width="180" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="M3S95Sz8UXM2FycRjZMM-8" value="+ getIsRetweet(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M3S95Sz8UXM2FycRjZMM-5">
+        <mxCell id="M3S95Sz8UXM2FycRjZMM-8" value="+ esRetweet(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M3S95Sz8UXM2FycRjZMM-5">
           <mxGeometry y="108" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="M3S95Sz8UXM2FycRjZMM-9" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.994;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1.231;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M3S95Sz8UXM2FycRjZMM-2" target="M3S95Sz8UXM2FycRjZMM-6">
