@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2022-06-22T18:47:22.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="iKkgSCj4BfQ9QAGiXqk7" version="20.0.3" type="github">
+  <diagram id="i5ADvQjR3_1WTDU7gtnW" name="Page-1">
+    <mxGraphModel dx="702" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-1" value="File" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="qZ7GHyakJWVNcfMVhgUv-1">
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-4" value="+ biggestFile(): File&#xa;+newestFile(): File&#xa;+ getSize(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qZ7GHyakJWVNcfMVhgUv-1">
+          <mxGeometry y="34" width="270" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-9" value="Composite&#xa;&lt;abstract&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="380" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-10" value="- name: String&#xa;- date: Date&#xa;- size: real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qZ7GHyakJWVNcfMVhgUv-9">
+          <mxGeometry y="40" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="qZ7GHyakJWVNcfMVhgUv-9">
+          <mxGeometry y="90" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-12" value="+ biggestFile(): File&#xa;+ newestFile(): File&#xa;+ getSize(): real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qZ7GHyakJWVNcfMVhgUv-9">
+          <mxGeometry y="98" width="380" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-13" value="Directory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="420" width="210" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="qZ7GHyakJWVNcfMVhgUv-13">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-16" value="+ getSize(): int&#xa;+ biggestFile(): File&#xa;+ newestFile(): File&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qZ7GHyakJWVNcfMVhgUv-13">
+          <mxGeometry y="34" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="qZ7GHyakJWVNcfMVhgUv-1" target="qZ7GHyakJWVNcfMVhgUv-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.6;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qZ7GHyakJWVNcfMVhgUv-13" target="qZ7GHyakJWVNcfMVhgUv-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="208.98009950248752" y="430" as="sourcePoint" />
+            <mxPoint x="318.681592039801" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-19" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.869;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.953;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qZ7GHyakJWVNcfMVhgUv-12" target="qZ7GHyakJWVNcfMVhgUv-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qZ7GHyakJWVNcfMVhgUv-20" value="0..*&lt;br&gt;-files" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="50" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
