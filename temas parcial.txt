@@ -5,7 +5,7 @@ patrones
 	composite
 	strategy
 	state
-	wrappers/ decorator
+	wrappers/ decorator --> VER
 	proxy
 	
 refactoring
@@ -14,6 +14,8 @@ refactoring
 	refactoring y catálogo
 	bad smells
 	
+
+
 framework
 	intro
 	hot y frozen spots
