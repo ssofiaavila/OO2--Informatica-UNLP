@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T16:18:31.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="voNnUpdnQ43LjNPfi3Ns" type="github"><diagram id="fxSVMCSw9n19aMLHYlRz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-11T16:29:11.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YneGcNgIfJR5CW11wt9N" version="20.0.4" type="github">
+  <diagram id="fxSVMCSw9n19aMLHYlRz" name="Page-1">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-1" value="Persoona" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="390" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-2" value="+ lista1: &lt;Llamada&gt;&#xa;+ t: String&#xa;+ nya: String&#xa;+ tel: String&#xa;+ cuit: String&#xa;+ doc: String&#xa;+ sis: Persoonal" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-1">
+          <mxGeometry y="26" width="390" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-1">
+          <mxGeometry y="170" width="390" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-4" value="+ getLista1(): &lt;Llamada&gt;&#xa;+ setLista1(lista1: &lt;Llamada&gt;)&#xa;+ getT(): String&#xa;+setT()&#xa;+getNya(): String&#xa;+setNya():String&#xa;+getTel(): String&#xa;+setTel(tel:String)&#xa;+ getCuit(): String&#xa;+ setCuit(cuit: String)&#xa;+ setDoc(doc:String)&#xa;+ getDoc(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-1">
+          <mxGeometry y="178" width="390" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-5" value="Persoonal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="580" width="470" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-6" value="+ lista1: &lt;Persoona&gt;&#xa;+ lista2: &lt;Llamada&gt;&#xa;+ lista3: GuiaTelefonica&#xa;+descuentoJur: double&#xa;+descuentoFis: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-5">
+          <mxGeometry y="26" width="470" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-5">
+          <mxGeometry y="130" width="470" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-8" value="+ agregarTelefono(str: String): boolean&#xa;+ registrarUsuario(data:String, nombre: String, t:String): Persoona&#xa;+ eliminarUsuario(p: Persoona): boolean&#xa;+ registrarLlamada(q: Persoona, q2: Persoona, t: String, d: integer): Llamada&#xa;+ calcularMontoTotalLlamadas(p: Persoona): double&#xa;+ cantidadDeUsuarios(): int&#xa;+ existeUsuario(persona: Persoona): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-5">
+          <mxGeometry y="138" width="470" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.249;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oAVDj-XZKPrvrv_Jnmrs-5" target="oAVDj-XZKPrvrv_Jnmrs-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-10" value="0..*&lt;br&gt;+ lista1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-11" value="GuiaTelefonica" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="580" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-11">
+          <mxGeometry y="26" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-14" value="+ constructor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-11">
+          <mxGeometry y="34" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-15" value="Llamada" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="300" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-16" value="# tipoDeLlamada: String&#xa;- emisor: String&#xa;- remitente: String&#xa;+ dur: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-15">
+          <mxGeometry y="26" width="300" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-15">
+          <mxGeometry y="110" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-18" value="+ getTipoDeLlamada(): String&#xa;+ setTipoDeLlamada(tipoDeLlamada: String)&#xa;+ setEmisor(p: String)&#xa;+ getRemitente(): String&#xa;+ setRemitente(remitente: String)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="oAVDj-XZKPrvrv_Jnmrs-15">
+          <mxGeometry y="118" width="300" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1.006;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oAVDj-XZKPrvrv_Jnmrs-6" target="oAVDj-XZKPrvrv_Jnmrs-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="690" as="sourcePoint" />
+            <mxPoint x="640" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-20" value="0..1&lt;br&gt;+ lista3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="580" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-21" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="oAVDj-XZKPrvrv_Jnmrs-6" target="oAVDj-XZKPrvrv_Jnmrs-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="532.8199999999999" y="624.008" as="sourcePoint" />
+            <mxPoint x="730" y="626.002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAVDj-XZKPrvrv_Jnmrs-22" value="0..*&lt;br&gt;+ lista2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="720" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
