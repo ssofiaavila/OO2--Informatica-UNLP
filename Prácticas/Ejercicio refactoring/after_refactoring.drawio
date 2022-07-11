@@ -1,1 +1,163 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T17:52:10.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="252sbV100st0e8eI24_T" type="github"><diagram id="3vgsH7l8s2DfKD1dhRIe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-11T18:04:00.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="e0QE8CWfNmjmBibYThJi" version="20.0.4" type="github">
+  <diagram id="3vgsH7l8s2DfKD1dhRIe" name="Page-1">
+    <mxGraphModel dx="3201" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-1" value="GuiaTelefonica" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-400" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-1">
+          <mxGeometry y="26" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-4" value="+ agregarTelefono(str: String): boolean&#xa;+ getTelefono(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-1">
+          <mxGeometry y="34" width="320" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-5" value="Llamada&#xa;&lt;&lt;abstract&gt;&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-6" value="#  tipoDeLlamada: String&#xa;- emisor: String&#xa;- remitente: String&#xa;- dur: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-5">
+          <mxGeometry y="50" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-5">
+          <mxGeometry y="130" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-8" value="+ calcularCosto(): real&#xa;+ getTipoDeLlamada(): String&#xa;+ setTipoDeLlamada(tipoDeLlamada: String)&#xa;+ setEmisor(q: String)&#xa;+ getRemitente(): String&#xa;+ setRemitente(remitente: String)&#xa;+ getDuracion(): integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-5">
+          <mxGeometry y="138" width="360" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-9" value="LlamadaInternacional" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-9">
+          <mxGeometry y="26" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-12" value="+ calcularCosto(): real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-9">
+          <mxGeometry y="34" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.289;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-9" target="knKoRXoxA2GoWH83kPQ8-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-14" value="LlamadaNacional" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="460" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-14">
+          <mxGeometry y="26" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-16" value="+ calcularCosto(): real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-14">
+          <mxGeometry y="34" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-14" target="knKoRXoxA2GoWH83kPQ8-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520.8592332123412" y="470" as="sourcePoint" />
+            <mxPoint x="524.04" y="358.94399999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-18" value="Persoona&#xa;&lt;&lt;abstract&gt;&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=60;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-320" width="430" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-19" value="- t: String&#xa;- nya: String&#xa;- tel:String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-18">
+          <mxGeometry y="60" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-18">
+          <mxGeometry y="140" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-21" value="+ agregarLlamada(nueva: Llamada)&#xa;+ calcularMontoTotalLlamadas(): double&#xa;+ setters/getters" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-18">
+          <mxGeometry y="148" width="430" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.183;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.949;exitY=1.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-21" target="knKoRXoxA2GoWH83kPQ8-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="-100" as="sourcePoint" />
+            <mxPoint x="240" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-23" value="0..*&lt;br&gt;- llamadas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-24" value="Persoonal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-190" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-24">
+          <mxGeometry y="26" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-27" value="+ agregarTelefono(str: String): boolean&#xa;- crearUsuario(data: String, nombre:String, tipo: String): Persoona&#xa;+ registrarUsuario(data:String, nombre:String, tipo:String): Persoona&#xa;+ eliminarUsuario(p: Persoona): boolean&#xa;+ registrarLlamada(q:Persoona, q2:Persoona, t: String, d:integer): Llamada&#xa;+ calcularMontoTotalLlamadas(p:Persoona): real&#xa;+ cantidadDeUsuarios(): integer&#xa;+ existeUsuario(persona: Persoona): boolean&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-24">
+          <mxGeometry y="34" width="440" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.013;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-19" target="knKoRXoxA2GoWH83kPQ8-27">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="268.06999999999994" y="-78.03199999999993" as="sourcePoint" />
+            <mxPoint x="485.8800000000001" y="88.1099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-29" value="0..1&lt;br&gt;- sis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-190" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-30" value="PersoonaFisica" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="30" width="320" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-31" value="- doc: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-30">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-30">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-33" value="+ calcularMontoTotalLlamadas(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-30">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.195;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-30" target="knKoRXoxA2GoWH83kPQ8-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-130" y="-120" as="sourcePoint" />
+            <mxPoint x="30" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-35" value="PersoonaJuridica" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="320" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-36" value="- cuit: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-35">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-35">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-38" value="+ calcularMontoTotalLlamadas(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="knKoRXoxA2GoWH83kPQ8-35">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-39" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.405;entryY=1.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-35" target="knKoRXoxA2GoWH83kPQ8-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-125.0916576140628" y="40" as="sourcePoint" />
+            <mxPoint x="-56.15000000000009" y="-79.01600000000008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-40" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-24" target="knKoRXoxA2GoWH83kPQ8-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="-210" as="sourcePoint" />
+            <mxPoint x="612.0799999999999" y="-90.98800000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-41" value="0..1&lt;br&gt;- guiaTelefonica" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-260" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-42" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-27" target="knKoRXoxA2GoWH83kPQ8-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="696.1137440758293" y="-150" as="sourcePoint" />
+            <mxPoint x="714.5971563981043" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-43" value="0..*&lt;br&gt;- clientes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-90" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.163;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="knKoRXoxA2GoWH83kPQ8-27" target="knKoRXoxA2GoWH83kPQ8-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="-77" as="sourcePoint" />
+            <mxPoint x="290" y="-103.31775700934577" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knKoRXoxA2GoWH83kPQ8-45" value="0..*&lt;br&gt;-llamadas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
