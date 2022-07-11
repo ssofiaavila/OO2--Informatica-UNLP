@@ -16,7 +16,7 @@ public class Persoonal {
 	}
 
 
-	public Persoona crearUsuario(String data, String nombre, String tipo){
+	private Persoona crearUsuario(String data, String nombre, String tipo){
 		Persoona nuevo;
 		String nro= this.guiaTelefonica.getTelefono();
 		if (tipo.equals("fisica")){

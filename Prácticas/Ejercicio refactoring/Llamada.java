@@ -4,7 +4,7 @@ public abstract class Llamada {
 	protected String tipoDeLlamada;
 	private String emisor;
 	private String remitente;
-	public int dur;
+	private int dur;
 
 	public Llamada() {
 
