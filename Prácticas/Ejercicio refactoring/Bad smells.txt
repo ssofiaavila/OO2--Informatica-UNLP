@@ -1,0 +1,24 @@
+BAD SMELLS IN PERSOONAL CLASS:
+inappropiate intimacy
+long method/ class
+feature envy
+switch statements
+self encapsulated field
+refused bequest --> push down field
+speculative generality
+
+
+GUIATELEFONICA CLASS
+lazy class
+data class
+temporary field
+rename method
+
+LLAMADA
+inappropiate intimacy
+data class
+speculative generality
+
+PERSOONA
+inappropiate intimacy
+self encapsulated field
