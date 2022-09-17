@@ -1,5 +1,5 @@
 # OO2--Informatica-UNLP
-Prácticas de orientación a objetos 2, cursada 1er semestre 2022
+Prácticas y material de introducción a los sistemas operativos, cursada 2do semestre 2022- Facultad de informática UNLP
 -----
 ## Prácticas ##
 * [Enunciados](https://github.com/ssofiaavila/OO2--Informatica-UNLP/tree/main/Enunciados)
