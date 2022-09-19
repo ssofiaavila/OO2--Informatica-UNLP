@@ -40,6 +40,8 @@ Prácticas y material de introducción a los sistemas operativos, cursada 2do se
   * [Patrones](https://github.com/ssofiaavila/OO2--Informatica-UNLP/blob/main/Resumenes%20%2B%20apuntes/OO2%20resumen%20patrones.pdf)
   * [UML](https://github.com/ssofiaavila/OO2--Informatica-UNLP/blob/main/Resumenes%20%2B%20apuntes/Repaso%20UML.pdf)
   * [Streams](https://github.com/ssofiaavila/OO2--Informatica-UNLP/blob/main/Resumenes%20%2B%20apuntes/Repaso%20de%20streams.pdf)
+  * [DevOps](https://github.com/ssofiaavila/OO2--Informatica-UNLP/blob/main/Resumenes%20%2B%20apuntes/OO2%20resumen%20devops%20%2B%20deuda%20t%C3%A9cnica.pdf)
+  * [Blockchain](https://github.com/ssofiaavila/OO2--Informatica-UNLP/blob/main/Resumenes%20%2B%20apuntes/OO2%20resumen%20blockchain.pdf)
   
  </details>
  
